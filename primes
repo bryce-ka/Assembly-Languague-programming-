@@ -1,0 +1,28 @@
+add load_primes 
+stor load_primes 
+
+load_primes: load primes
+	jzer primes
+	write 
+	load one 
+	jpos 0
+
+ 
+
+one:1
+
+primes:
+2
+3
+5
+7
+11
+13
+17
+19
+23
+29
+31
+37
+
+

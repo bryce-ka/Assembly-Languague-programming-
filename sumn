@@ -1,0 +1,15 @@
+load sum 
+sub sum 
+read 
+loop: stor value 
+add sum 
+stor sum 
+load value
+sub one 
+jpos loop
+load sum 
+write 
+halt 
+value:0
+sum:0
+one:1

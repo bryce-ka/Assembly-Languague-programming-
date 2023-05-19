@@ -1,0 +1,15 @@
+copy_l:   load copy_l		#1 load adress 00000	
+copy_s:   stor 15		# store at adress 16 		
+	  load copy_l
+	  add one
+	  stor copy_l
+	  load copy_s
+	  add one
+	  stor copy_s
+	  load num
+	  sub one 
+	  store num
+	  jzer 14
+	  jump copy_l 
+one: 1
+num: 14

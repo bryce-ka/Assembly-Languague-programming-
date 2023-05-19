@@ -1,0 +1,25 @@
+read
+store m
+read 
+stor n 
+add n 
+sub n
+jzer 22
+load mxn
+add m 
+stor mxn
+load n 
+sub one
+store n
+load n 
+jzer 22
+jpos 4
+load mxn 
+write  
+mxn: 0
+m:0
+n:0
+one:1
+load mxn
+#load n 
+write
